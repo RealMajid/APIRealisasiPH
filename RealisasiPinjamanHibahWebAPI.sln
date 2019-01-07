@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealisasiPinjamanHibahWebAPI", "RealisasiPinjamanHibahWebAPI\RealisasiPinjamanHibahWebAPI.csproj", "{BD47A955-5BC6-468C-9FED-872896E87793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealisasiPinjamanHibahDataAccess", "RealisasiPinjamanHibahDataAccess\RealisasiPinjamanHibahDataAccess.csproj", "{736A8F8F-F61B-4575-8008-EEF7A1668EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD47A955-5BC6-468C-9FED-872896E87793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD47A955-5BC6-468C-9FED-872896E87793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD47A955-5BC6-468C-9FED-872896E87793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD47A955-5BC6-468C-9FED-872896E87793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736A8F8F-F61B-4575-8008-EEF7A1668EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736A8F8F-F61B-4575-8008-EEF7A1668EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736A8F8F-F61B-4575-8008-EEF7A1668EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736A8F8F-F61B-4575-8008-EEF7A1668EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3B7810-2973-4AF3-86D3-180A8B0A7606}
+	EndGlobalSection
+EndGlobal

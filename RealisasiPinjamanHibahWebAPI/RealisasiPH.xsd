@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RealisasiPH" targetNamespace="http://tempuri.org/RealisasiPH.xsd" xmlns:mstns="http://tempuri.org/RealisasiPH.xsd" xmlns="http://tempuri.org/RealisasiPH.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RealisasiPH" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RealisasiPH" msprop:Generator_UserDSName="RealisasiPH">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PinjamanLuarNegeri" msprop:Generator_TableClassName="PinjamanLuarNegeriDataTable" msprop:Generator_TableVarName="tablePinjamanLuarNegeri" msprop:Generator_RowChangedName="PinjamanLuarNegeriRowChanged" msprop:Generator_TablePropName="PinjamanLuarNegeri" msprop:Generator_RowDeletingName="PinjamanLuarNegeriRowDeleting" msprop:Generator_RowChangingName="PinjamanLuarNegeriRowChanging" msprop:Generator_RowEvHandlerName="PinjamanLuarNegeriRowChangeEventHandler" msprop:Generator_RowDeletedName="PinjamanLuarNegeriRowDeleted" msprop:Generator_RowClassName="PinjamanLuarNegeriRow" msprop:Generator_UserTableName="PinjamanLuarNegeri" msprop:Generator_RowEvArgName="PinjamanLuarNegeriRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kementerian" msprop:Generator_ColumnVarNameInTable="columnKementerian" msprop:Generator_ColumnPropNameInRow="Kementerian" msprop:Generator_ColumnPropNameInTable="KementerianColumn" msprop:Generator_UserColumnName="Kementerian" type="xs:string" minOccurs="0" />
+              <xs:element name="Register" msprop:Generator_ColumnVarNameInTable="columnRegister" msprop:Generator_ColumnPropNameInRow="Register" msprop:Generator_ColumnPropNameInTable="RegisterColumn" msprop:Generator_UserColumnName="Register" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaProyek" msprop:Generator_ColumnVarNameInTable="columnNamaProyek" msprop:Generator_ColumnPropNameInRow="NamaProyek" msprop:Generator_ColumnPropNameInTable="NamaProyekColumn" msprop:Generator_UserColumnName="NamaProyek" type="xs:string" minOccurs="0" />
+              <xs:element name="NilaiPaguPLN" msprop:Generator_ColumnVarNameInTable="columnNilaiPaguPLN" msprop:Generator_ColumnPropNameInRow="NilaiPaguPLN" msprop:Generator_ColumnPropNameInTable="NilaiPaguPLNColumn" msprop:Generator_UserColumnName="NilaiPaguPLN" type="xs:double" minOccurs="0" />
+              <xs:element name="NilaiPaguRMP" msprop:Generator_ColumnVarNameInTable="columnNilaiPaguRMP" msprop:Generator_ColumnPropNameInRow="NilaiPaguRMP" msprop:Generator_ColumnPropNameInTable="NilaiPaguRMPColumn" msprop:Generator_UserColumnName="NilaiPaguRMP" type="xs:double" minOccurs="0" />
+              <xs:element name="NilaiRealisasiPLN" msprop:Generator_ColumnVarNameInTable="columnNilaiRealisasiPLN" msprop:Generator_ColumnPropNameInRow="NilaiRealisasiPLN" msprop:Generator_ColumnPropNameInTable="NilaiRealisasiPLNColumn" msprop:Generator_UserColumnName="NilaiRealisasiPLN" type="xs:double" minOccurs="0" />
+              <xs:element name="NilaiRealisasiRMP" msprop:Generator_ColumnVarNameInTable="columnNilaiRealisasiRMP" msprop:Generator_ColumnPropNameInRow="NilaiRealisasiRMP" msprop:Generator_ColumnPropNameInTable="NilaiRealisasiRMPColumn" msprop:Generator_UserColumnName="NilaiRealisasiRMP" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hibah" msprop:Generator_TableClassName="HibahDataTable" msprop:Generator_TableVarName="tableHibah" msprop:Generator_RowChangedName="HibahRowChanged" msprop:Generator_TablePropName="Hibah" msprop:Generator_RowDeletingName="HibahRowDeleting" msprop:Generator_RowChangingName="HibahRowChanging" msprop:Generator_RowEvHandlerName="HibahRowChangeEventHandler" msprop:Generator_RowDeletedName="HibahRowDeleted" msprop:Generator_RowClassName="HibahRow" msprop:Generator_UserTableName="Hibah" msprop:Generator_RowEvArgName="HibahRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kementerian" msprop:Generator_ColumnVarNameInTable="columnKementerian" msprop:Generator_ColumnPropNameInRow="Kementerian" msprop:Generator_ColumnPropNameInTable="KementerianColumn" msprop:Generator_UserColumnName="Kementerian" type="xs:string" minOccurs="0" />
+              <xs:element name="Register" msprop:Generator_ColumnVarNameInTable="columnRegister" msprop:Generator_ColumnPropNameInRow="Register" msprop:Generator_ColumnPropNameInTable="RegisterColumn" msprop:Generator_UserColumnName="Register" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaProyek" msprop:Generator_ColumnVarNameInTable="columnNamaProyek" msprop:Generator_ColumnPropNameInRow="NamaProyek" msprop:Generator_ColumnPropNameInTable="NamaProyekColumn" msprop:Generator_UserColumnName="NamaProyek" type="xs:string" minOccurs="0" />
+              <xs:element name="PaguDIPA" msprop:Generator_ColumnVarNameInTable="columnPaguDIPA" msprop:Generator_ColumnPropNameInRow="PaguDIPA" msprop:Generator_ColumnPropNameInTable="PaguDIPAColumn" msprop:Generator_UserColumnName="PaguDIPA" type="xs:double" minOccurs="0" />
+              <xs:element name="Realisasi" msprop:Generator_ColumnVarNameInTable="columnRealisasi" msprop:Generator_ColumnPropNameInRow="Realisasi" msprop:Generator_ColumnPropNameInTable="RealisasiColumn" msprop:Generator_UserColumnName="Realisasi" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PinjamanDalamNegeri" msprop:Generator_TableClassName="PinjamanDalamNegeriDataTable" msprop:Generator_TableVarName="tablePinjamanDalamNegeri" msprop:Generator_TablePropName="PinjamanDalamNegeri" msprop:Generator_RowDeletingName="PinjamanDalamNegeriRowDeleting" msprop:Generator_RowChangingName="PinjamanDalamNegeriRowChanging" msprop:Generator_RowEvHandlerName="PinjamanDalamNegeriRowChangeEventHandler" msprop:Generator_RowDeletedName="PinjamanDalamNegeriRowDeleted" msprop:Generator_UserTableName="PinjamanDalamNegeri" msprop:Generator_RowChangedName="PinjamanDalamNegeriRowChanged" msprop:Generator_RowEvArgName="PinjamanDalamNegeriRowChangeEvent" msprop:Generator_RowClassName="PinjamanDalamNegeriRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kementerian" msprop:Generator_ColumnVarNameInTable="columnKementerian" msprop:Generator_ColumnPropNameInRow="Kementerian" msprop:Generator_ColumnPropNameInTable="KementerianColumn" msprop:Generator_UserColumnName="Kementerian" type="xs:string" minOccurs="0" />
+              <xs:element name="Register" msprop:Generator_ColumnVarNameInTable="columnRegister" msprop:Generator_ColumnPropNameInRow="Register" msprop:Generator_ColumnPropNameInTable="RegisterColumn" msprop:Generator_UserColumnName="Register" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaProyek" msprop:Generator_ColumnVarNameInTable="columnNamaProyek" msprop:Generator_ColumnPropNameInRow="NamaProyek" msprop:Generator_ColumnPropNameInTable="NamaProyekColumn" msprop:Generator_UserColumnName="NamaProyek" type="xs:string" minOccurs="0" />
+              <xs:element name="PaguDIPA" msprop:Generator_ColumnVarNameInTable="columnPaguDIPA" msprop:Generator_ColumnPropNameInRow="PaguDIPA" msprop:Generator_ColumnPropNameInTable="PaguDIPAColumn" msprop:Generator_UserColumnName="PaguDIPA" type="xs:double" minOccurs="0" />
+              <xs:element name="Realisasi" msprop:Generator_ColumnVarNameInTable="columnRealisasi" msprop:Generator_ColumnPropNameInRow="Realisasi" msprop:Generator_ColumnPropNameInTable="RealisasiColumn" msprop:Generator_UserColumnName="Realisasi" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PinjamanLuarNegeriPipeline" msprop:Generator_TableClassName="PinjamanLuarNegeriPipelineDataTable" msprop:Generator_TableVarName="tablePinjamanLuarNegeriPipeline" msprop:Generator_TablePropName="PinjamanLuarNegeriPipeline" msprop:Generator_RowDeletingName="PinjamanLuarNegeriPipelineRowDeleting" msprop:Generator_RowChangingName="PinjamanLuarNegeriPipelineRowChanging" msprop:Generator_RowEvHandlerName="PinjamanLuarNegeriPipelineRowChangeEventHandler" msprop:Generator_RowDeletedName="PinjamanLuarNegeriPipelineRowDeleted" msprop:Generator_UserTableName="PinjamanLuarNegeriPipeline" msprop:Generator_RowChangedName="PinjamanLuarNegeriPipelineRowChanged" msprop:Generator_RowEvArgName="PinjamanLuarNegeriPipelineRowChangeEvent" msprop:Generator_RowClassName="PinjamanLuarNegeriPipelineRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kementerian" msprop:Generator_ColumnVarNameInTable="columnKementerian" msprop:Generator_ColumnPropNameInRow="Kementerian" msprop:Generator_ColumnPropNameInTable="KementerianColumn" msprop:Generator_UserColumnName="Kementerian" type="xs:string" minOccurs="0" />
+              <xs:element name="Register" msprop:Generator_ColumnVarNameInTable="columnRegister" msprop:Generator_ColumnPropNameInRow="Register" msprop:Generator_ColumnPropNameInTable="RegisterColumn" msprop:Generator_UserColumnName="Register" type="xs:string" minOccurs="0" />
+              <xs:element name="PaguPLN" msprop:Generator_ColumnVarNameInTable="columnPaguPLN" msprop:Generator_ColumnPropNameInRow="PaguPLN" msprop:Generator_ColumnPropNameInTable="PaguPLNColumn" msprop:Generator_UserColumnName="PaguPLN" type="xs:double" minOccurs="0" />
+              <xs:element name="RMPPLN" msprop:Generator_ColumnVarNameInTable="columnRMPPLN" msprop:Generator_ColumnPropNameInRow="RMPPLN" msprop:Generator_ColumnPropNameInTable="RMPPLNColumn" msprop:Generator_UserColumnName="RMPPLN" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HibahPipeline" msprop:Generator_TableClassName="HibahPipelineDataTable" msprop:Generator_TableVarName="tableHibahPipeline" msprop:Generator_TablePropName="HibahPipeline" msprop:Generator_RowDeletingName="HibahPipelineRowDeleting" msprop:Generator_RowChangingName="HibahPipelineRowChanging" msprop:Generator_RowEvHandlerName="HibahPipelineRowChangeEventHandler" msprop:Generator_RowDeletedName="HibahPipelineRowDeleted" msprop:Generator_UserTableName="HibahPipeline" msprop:Generator_RowChangedName="HibahPipelineRowChanged" msprop:Generator_RowEvArgName="HibahPipelineRowChangeEvent" msprop:Generator_RowClassName="HibahPipelineRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kementerian" msprop:Generator_ColumnVarNameInTable="columnKementerian" msprop:Generator_ColumnPropNameInRow="Kementerian" msprop:Generator_ColumnPropNameInTable="KementerianColumn" msprop:Generator_UserColumnName="Kementerian" type="xs:string" minOccurs="0" />
+              <xs:element name="Register" msprop:Generator_ColumnVarNameInTable="columnRegister" msprop:Generator_ColumnPropNameInRow="Register" msprop:Generator_ColumnPropNameInTable="RegisterColumn" msprop:Generator_UserColumnName="Register" type="xs:string" minOccurs="0" />
+              <xs:element name="PaguDIPA" msprop:Generator_ColumnVarNameInTable="columnPaguDIPA" msprop:Generator_ColumnPropNameInRow="PaguDIPA" msprop:Generator_ColumnPropNameInTable="PaguDIPAColumn" msprop:Generator_UserColumnName="PaguDIPA" type="xs:double" minOccurs="0" />
+              <xs:element name="Realisasi" msprop:Generator_ColumnVarNameInTable="columnRealisasi" msprop:Generator_ColumnPropNameInRow="Realisasi" msprop:Generator_ColumnPropNameInTable="RealisasiColumn" msprop:Generator_UserColumnName="Realisasi" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PinjamanDalamNegeriPipeline" msprop:Generator_TableClassName="PinjamanDalamNegeriPipelineDataTable" msprop:Generator_TableVarName="tablePinjamanDalamNegeriPipeline" msprop:Generator_TablePropName="PinjamanDalamNegeriPipeline" msprop:Generator_RowDeletingName="PinjamanDalamNegeriPipelineRowDeleting" msprop:Generator_RowChangingName="PinjamanDalamNegeriPipelineRowChanging" msprop:Generator_RowEvHandlerName="PinjamanDalamNegeriPipelineRowChangeEventHandler" msprop:Generator_RowDeletedName="PinjamanDalamNegeriPipelineRowDeleted" msprop:Generator_UserTableName="PinjamanDalamNegeriPipeline" msprop:Generator_RowChangedName="PinjamanDalamNegeriPipelineRowChanged" msprop:Generator_RowEvArgName="PinjamanDalamNegeriPipelineRowChangeEvent" msprop:Generator_RowClassName="PinjamanDalamNegeriPipelineRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kementerian" msprop:Generator_ColumnVarNameInTable="columnKementerian" msprop:Generator_ColumnPropNameInRow="Kementerian" msprop:Generator_ColumnPropNameInTable="KementerianColumn" msprop:Generator_UserColumnName="Kementerian" type="xs:string" minOccurs="0" />
+              <xs:element name="Register" msprop:Generator_ColumnVarNameInTable="columnRegister" msprop:Generator_ColumnPropNameInRow="Register" msprop:Generator_ColumnPropNameInTable="RegisterColumn" msprop:Generator_UserColumnName="Register" type="xs:string" minOccurs="0" />
+              <xs:element name="PaguDIPA" msprop:Generator_ColumnVarNameInTable="columnPaguDIPA" msprop:Generator_ColumnPropNameInRow="PaguDIPA" msprop:Generator_ColumnPropNameInTable="PaguDIPAColumn" msprop:Generator_UserColumnName="PaguDIPA" type="xs:string" minOccurs="0" />
+              <xs:element name="Realisasi" msprop:Generator_ColumnVarNameInTable="columnRealisasi" msprop:Generator_ColumnPropNameInRow="Realisasi" msprop:Generator_ColumnPropNameInTable="RealisasiColumn" msprop:Generator_UserColumnName="Realisasi" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

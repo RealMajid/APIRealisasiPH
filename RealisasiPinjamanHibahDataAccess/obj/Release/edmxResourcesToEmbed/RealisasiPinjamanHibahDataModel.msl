@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PDE2ModelStoreContainer" CdmEntityContainer="PDE2Entities">
+    <FunctionImportMapping FunctionImportName="USP_GET_DITPH_PAGUVSREAL_BACKUP" FunctionName="PDE2Model.Store.USP_GET_DITPH_PAGUVSREAL_BACKUP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PDE2Model.USP_GET_DITPH_PAGUVSREAL_BACKUP_Result">
+          <ScalarProperty Name="KDSDANA_ALL" ColumnName="KDSDANA_ALL" />
+          <ScalarProperty Name="REG_ALL" ColumnName="REG_ALL" />
+          <ScalarProperty Name="NMDEPT" ColumnName="NMDEPT" />
+          <ScalarProperty Name="KDDEPT" ColumnName="KDDEPT" />
+          <ScalarProperty Name="pagu_all" ColumnName="pagu_all" />
+          <ScalarProperty Name="PAGU_RMP" ColumnName="PAGU_RMP" />
+          <ScalarProperty Name="RPHREAL" ColumnName="RPHREAL" />
+          <ScalarProperty Name="REAL_RMP" ColumnName="REAL_RMP" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GET_DITPH_PAGUVSREAL_ONGOING" FunctionName="PDE2Model.Store.USP_GET_DITPH_PAGUVSREAL_ONGOING">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PDE2Model.USP_GET_DITPH_PAGUVSREAL_ONGOING_Result">
+          <ScalarProperty Name="KDSDANA_ALL" ColumnName="KDSDANA_ALL" />
+          <ScalarProperty Name="REG_ALL" ColumnName="REG_ALL" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="NMDEPT" ColumnName="NMDEPT" />
+          <ScalarProperty Name="KDDEPT" ColumnName="KDDEPT" />
+          <ScalarProperty Name="pagu_all" ColumnName="pagu_all" />
+          <ScalarProperty Name="PAGU_RMP" ColumnName="PAGU_RMP" />
+          <ScalarProperty Name="RPHREAL" ColumnName="RPHREAL" />
+          <ScalarProperty Name="REAL_RMP" ColumnName="REAL_RMP" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GET_DITPH_PAGUVSREAL_PIPELINE" FunctionName="PDE2Model.Store.USP_GET_DITPH_PAGUVSREAL_PIPELINE">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PDE2Model.USP_GET_DITPH_PAGUVSREAL_PIPELINE_Result">
+          <ScalarProperty Name="KDSDANA_ALL" ColumnName="KDSDANA_ALL" />
+          <ScalarProperty Name="REG_ALL" ColumnName="REG_ALL" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="NMDEPT" ColumnName="NMDEPT" />
+          <ScalarProperty Name="KDDEPT" ColumnName="KDDEPT" />
+          <ScalarProperty Name="pagu_all" ColumnName="pagu_all" />
+          <ScalarProperty Name="PAGU_RMP" ColumnName="PAGU_RMP" />
+          <ScalarProperty Name="RPHREAL" ColumnName="RPHREAL" />
+          <ScalarProperty Name="REAL_RMP" ColumnName="REAL_RMP" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GET_DITPH_PAGUVSREAL_ONGOING_2" FunctionName="PDE2Model.Store.USP_GET_DITPH_PAGUVSREAL_ONGOING_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PDE2Model.USP_GET_DITPH_PAGUVSREAL_ONGOING_2_Result">
+          <ScalarProperty Name="KDSDANA_ALL" ColumnName="KDSDANA_ALL" />
+          <ScalarProperty Name="REG_ALL" ColumnName="REG_ALL" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="NMDEPT" ColumnName="NMDEPT" />
+          <ScalarProperty Name="KDDEPT" ColumnName="KDDEPT" />
+          <ScalarProperty Name="pagu_all" ColumnName="pagu_all" />
+          <ScalarProperty Name="PAGU_RMP" ColumnName="PAGU_RMP" />
+          <ScalarProperty Name="RPHREAL" ColumnName="RPHREAL" />
+          <ScalarProperty Name="REAL_RMP" ColumnName="REAL_RMP" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GET_DITPH_PAGUVSREAL_PIPELINE_2" FunctionName="PDE2Model.Store.USP_GET_DITPH_PAGUVSREAL_PIPELINE_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PDE2Model.USP_GET_DITPH_PAGUVSREAL_PIPELINE_2_Result">
+          <ScalarProperty Name="KDSDANA_ALL" ColumnName="KDSDANA_ALL" />
+          <ScalarProperty Name="REG_ALL" ColumnName="REG_ALL" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="NMDEPT" ColumnName="NMDEPT" />
+          <ScalarProperty Name="KDDEPT" ColumnName="KDDEPT" />
+          <ScalarProperty Name="pagu_all" ColumnName="pagu_all" />
+          <ScalarProperty Name="PAGU_RMP" ColumnName="PAGU_RMP" />
+          <ScalarProperty Name="RPHREAL" ColumnName="RPHREAL" />
+          <ScalarProperty Name="REAL_RMP" ColumnName="REAL_RMP" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="VW_REALISASI_DITPH">
+      <EntityTypeMapping TypeName="PDE2Model.VW_REALISASI_DITPH">
+        <MappingFragment StoreEntitySet="VW_REALISASI_DITPH">
+          <ScalarProperty Name="REALISASI" ColumnName="REALISASI" />
+          <ScalarProperty Name="NAMAPROYEK" ColumnName="NAMAPROYEK" />
+          <ScalarProperty Name="REGISTER" ColumnName="REGISTER" />
+          <ScalarProperty Name="KEMENTERIAN" ColumnName="KEMENTERIAN" />
+          <ScalarProperty Name="TANGGAL" ColumnName="TANGGAL" />
+          <ScalarProperty Name="NOMOR" ColumnName="NOMOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

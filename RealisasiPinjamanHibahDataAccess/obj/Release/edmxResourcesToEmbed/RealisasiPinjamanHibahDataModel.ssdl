@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PDE2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'PDE2.dbo.VW_REALISASI_DITPH' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VW_REALISASI_DITPH">
+    <Key>
+      <PropertyRef Name="NOMOR" />
+    </Key>
+    <Property Name="NOMOR" Type="int" Nullable="false" />
+    <Property Name="TANGGAL" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="KEMENTERIAN" Type="varchar" MaxLength="70" />
+    <Property Name="REGISTER" Type="nvarchar" MaxLength="8" />
+    <Property Name="NAMAPROYEK" Type="varchar" MaxLength="30" />
+    <Property Name="REALISASI" Type="numeric" Precision="38" Scale="0" />
+  </EntityType>
+  <Function Name="USP_GET_DITPH_PAGUVSREAL_BACKUP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="INSTRUMENT" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_GET_DITPH_PAGUVSREAL_ONGOING" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="INSTRUMENT" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_GET_DITPH_PAGUVSREAL_ONGOING_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="INSTRUMENT" Type="varchar" Mode="In" />
+    <Parameter Name="TANGGAL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_GET_DITPH_PAGUVSREAL_PIPELINE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="INSTRUMENT" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_GET_DITPH_PAGUVSREAL_PIPELINE_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="INSTRUMENT" Type="varchar" Mode="In" />
+    <Parameter Name="TANGGAL" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="PDE2ModelStoreContainer">
+    <EntitySet Name="VW_REALISASI_DITPH" EntityType="Self.VW_REALISASI_DITPH" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_REALISASI_DITPH].[NOMOR] AS [NOMOR], 
+    [VW_REALISASI_DITPH].[TANGGAL] AS [TANGGAL], 
+    [VW_REALISASI_DITPH].[KEMENTERIAN] AS [KEMENTERIAN], 
+    [VW_REALISASI_DITPH].[REGISTER] AS [REGISTER], 
+    [VW_REALISASI_DITPH].[NAMAPROYEK] AS [NAMAPROYEK], 
+    [VW_REALISASI_DITPH].[REALISASI] AS [REALISASI]
+    FROM [dbo].[VW_REALISASI_DITPH] AS [VW_REALISASI_DITPH]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
